@@ -5,11 +5,12 @@ written in HTML5 and CSS3.
 
 ## Todos
 
-+ Search how add blurring effect to background img (filter: blur)
++ add blurring effect to background img [DONE]
 + Create project page to showcase best 3 projects (at least)
 + Change yahoo icon to mail/envelope/@ icon
 + Voir comment mieux en valeur quotation
 + Encrypt email address within contact.html
++ Write a better about page with content more relevant for a frontend position
 
 ## When done
 
