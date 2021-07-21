@@ -17,7 +17,7 @@ html,body{
 }
 
 .blur {
-	background: rgba(255, 255, 255, 0.2); // Make sure this color has an opacity of less than 1
+	background: rgba(255, 255, 255, 0.2);
 	display:block;
 	height: 100%;
 }
@@ -122,10 +122,11 @@ main{
 }
 /* END FONT AWESOME ICONS */
 
+/* MEDIA QUERIES */
 @media only screen and (max-width: 750px) {
-	html,body{
-		width: 100%;
-		height: 100%;
+	.background{
+		width: 100%;		
+		height: 100%;		
 	}
 	.flex-container{
 		flex-direction: column;
@@ -133,5 +134,10 @@ main{
 	}
 	.project-box{
 		padding: 50px;
+	}
+	.about-section{
+		text-align: center;
+		font-size: auto;
+		padding: none;
 	}
 }
