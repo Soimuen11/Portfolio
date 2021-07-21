@@ -1,16 +1,13 @@
 # Personal Portfoglio
 
 Hello World! This is my portfoglio as a front-end developer. It is entirely
-written in HTML5 and CSS3.
+written in HTML5 and CSS3. For the styling, I used google fonts, font awesome
+and flexbox.
 
 ## Todos
 
-+ add blurring effect to background img [DONE]
-+ Create project page to showcase best 3 projects (at least)
-+ Change yahoo icon to mail/envelope/@ icon
-+ Voir comment mieux en valeur quotation
-+ Encrypt email address within contact.html
-+ Write a better about page with content more relevant for a frontend position
++ Fix responsivity issues
++ Add more projects whenever I have more to showcase
 
 ## When done
 
