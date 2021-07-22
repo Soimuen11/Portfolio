@@ -80,7 +80,6 @@ main{
 	padding-left: 150px;
 	text-align: justify;
 	text-justify: inter-word;
-	font-size: 25px;
 }
 
 /* FLEXBOX */
@@ -136,13 +135,12 @@ main{
 		padding: 50px;
 	}
 	.about-section{
-		text-align: center;
-		font-size: auto;
 		padding-right: 0;
 		padding-left: 0;
 	}
 	.hello{
 		font-size:35px;
+		height:10%;
 	}
 	.profile-img{
 		width:100px;
@@ -162,10 +160,6 @@ main{
 		padding:10px;
 		font-size: 50px !important;
 	}
-}
-
-@media only screen and (max-width: 450px) {
-	.about-section{font-size:20px;}
 }
 
 @media only screen and (max-width: 200px) {
