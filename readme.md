@@ -6,12 +6,10 @@ and flexbox.
 
 ## Todos
 
-+ Fix responsivity issues
-+ Add more projects whenever I have more to showcase
++ Add more projects whenever I have more to showcase (at least one more would be great)
 
 ## When done
 
-+ Show result to Paul
 + Publish as github page (.io)
-+ Share with discord server(s)
-+ Share on workplace
++ Share with discord server(s) & ask for feedback
++ Share on workplace & ask for feedback

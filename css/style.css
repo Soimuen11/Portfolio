@@ -35,7 +35,7 @@ main{
 
 .hello{
 	font-family: "Festive", Arial, Helvetica, sans-serif;
-	line-height: 5px;
+	line-height: 50px;
 	font-size: 65px;
 	font-style: italic;
 	height: 20%;
@@ -138,6 +138,47 @@ main{
 	.about-section{
 		text-align: center;
 		font-size: auto;
-		padding: none;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.hello{
+		font-size:35px;
+	}
+	.profile-img{
+		width:100px;
+		height:100px;
+	}
+	main{
+		width: 100%;
+		height: 50%;
+		position: none;
+		top:none;
+		bottom: none;
+		left: none;
+		right: none;
+		margin: none;
+	}
+	.fa{
+		padding:10px;
+		font-size: 50px !important;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.about-section{font-size:20px;}
+}
+
+@media only screen and (max-width: 200px) {
+	.profile-img{
+		width:50px;
+		height:50px;
+		padding-top:35%;
+	}
+	.hello{
+		font-size:20px;
+		line-height:20px;
+	}
+	.flex-container{
+		padding-top:40%;
 	}
 }
