@@ -100,7 +100,7 @@ main{
 .project-title{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 50px;
+	/* font-size: 50px; */
 }
 .project-title:hover{
 	color: #BDB76B;
@@ -159,6 +159,9 @@ main{
 	.fa{
 		padding:10px;
 		font-size: 50px !important;
+	}
+	.project-description{
+		display:none;
 	}
 }
 
