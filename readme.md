@@ -6,6 +6,8 @@ and flexbox.
 
 ## Todos
 
++ Fixed responsivity for home & contacts
++ Need to fix responsivity for about & projects page
 + Add more projects whenever I have more to showcase (at least one more would be great)
 
 ## When done
