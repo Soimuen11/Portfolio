@@ -1,6 +1,6 @@
-# Personal Portfoglio
+# Personal Portfolio
 
-Hello World! This is my portfoglio as a front-end developer. It is entirely
+Hello World! This is my portfolio as a front-end developer. It is entirely
 written in HTML5 and CSS3. For the styling, I used google fonts, font awesome
 and flexbox.
 
