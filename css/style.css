@@ -135,8 +135,8 @@ main{
 		padding: 50px;
 	}
 	.about-section{
-		padding-right: 0;
-		padding-left: 0;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 	.hello{
 		font-size:35px;
