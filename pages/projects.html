@@ -64,7 +64,11 @@
 		//inform user that game_of_life project is not yet available
 		let game_life = document.getElementById("game_life")
 		game_life.addEventListener("click", function(){
-			swal("Not available yet!")
+			swal({
+				title:"Work In Progress",
+				text:"I am currently refreshing this project. Come back to check it out soon!",
+				icon:"warning"
+			})
 		})
 		//inform user that dog fight does not work mobile devices
 		let dog_fight = document.getElementById("dog_fight")
@@ -72,10 +76,13 @@
 			let window_width = window.innerWidth;
 			if (window_width <= 950){
 				dog_fight.style['pointer-events'] = "none"
-				swal("This project is not responsive yet. Come back soon to check it out again!")
-			}else{
-				dog_fight.style['pointer-events'] = "initial"
+				swal({
+					title:"Work In Progress",
+					text:"This project is not responsive yet. Come back to check it out soon!",
+					icon:"warning"
+				})
 			}
 		})
+		//dog_fight.style['pointer-events'] = "initial"
 	</script>
 </html>
