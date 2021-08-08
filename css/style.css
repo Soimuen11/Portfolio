@@ -88,11 +88,11 @@ main{
 	flex-direction: row;
 	align-items: center;	
 	align-content: center;
+	height:50%;
 }
 .project-box{
 	flex-grow:4;
-	width: 20px;
-	height: 20px;
+	height: 0;
 }
 .contact-box{
 	flex-grow:4;
@@ -121,6 +121,11 @@ main{
 /* END FONT AWESOME ICONS */
 
 /* MEDIA QUERIES */
+/* @media only screen and (max-width: 950px) { */
+/* 	a#dog_fight{ */
+		/* pointer-events:none; */
+	/* } */
+/* } */
 @media only screen and (max-width: 750px) {
 	.background{
 		width: 100%;		
@@ -131,7 +136,7 @@ main{
 		align-content: center;
 	}
 	.project-box{
-		padding: 50px;
+		padding: 45px;
 	}
 	.about-section{
 		padding-right: 10px;
@@ -140,6 +145,9 @@ main{
 	.hello{
 		font-size:35px;
 		height:10%;
+	}
+	#portfolio-title{
+		display:none;
 	}
 	.profile-img{
 		width:100px;
