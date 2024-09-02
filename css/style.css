@@ -1,4 +1,7 @@
-/*GENERAL*/
+/*=========*/
+/* GENERAL */
+/*=========*/
+
 html,body{
 	width: 100%;
 	height: 100%;
@@ -11,17 +14,13 @@ html,body{
 	width: 100%;
 	height: 100%;
 	background-image: url("../img/portfoglio-background2.jpg");
-	/* background-repeat: no-repeat; */
-	/* background-attachment: fixed; */
 	background-size: cover;
 }
-
 .blur {
 	background: rgba(255, 255, 255, 0.2);
 	display:block;
 	height: 100%;
 }
-
 main{
 	width: 100%;
 	height: 50%;
@@ -32,7 +31,6 @@ main{
 	right: 0;
 	margin: auto;
 }
-
 .hello{
 	font-family: "Festive", Arial, Helvetica, sans-serif;
 	line-height: 50px;
@@ -40,13 +38,16 @@ main{
 	font-style: italic;
 	height: 20%;
 }
+/* ========= */
 /*END GENERAL*/
+/* ========= */
 
-/*MENU*/
+/* ========= */
+/*    MENU   */
+/* ========= */
 .topnav {
 	overflow: hidden;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
 	float: left;
@@ -56,18 +57,19 @@ main{
 	text-decoration: none;
 	font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
 	background-color: none;
 	color: black;
 }
-
 /* Right-aligned section inside the top navigation */
 .topnav-right {
 	float: right;
 }
+
+/*=========*/
 /*END MENU*/
+/*=========*/
 
 .profile-img{
 	border-radius: 50%;
@@ -82,7 +84,10 @@ main{
 	text-justify: inter-word;
 }
 
+/*=========*/
 /* FLEXBOX */
+/*=========*/
+
 .flex-container{
 	display: flex;
 	flex-direction: row;
@@ -107,9 +112,14 @@ main{
 .project-description{
 	font-size: 20px;
 }
+/*=========*/
 /* END FLEXBOX */
+/*=========*/
 
+/*=========*/
 /* FONT AWESOME ICONS */
+/*=========*/
+
 .fa{
 	padding: 10px;
 	font-size: 90px !important;
@@ -134,6 +144,10 @@ main{
 	.flex-container{
 		flex-direction: column;
 		align-content: center;
+	}
+	.system-stockage-container{
+		flex-direction: column;
+		align-content:center;
 	}
 	.project-box{
 		padding: 39px;
@@ -172,6 +186,57 @@ main{
 	}
 }
 
+/*=========*/
+/*Skills page*/
+/*=========*/
+.system-stockage-container{ 
+	text-align:left;
+	display: flex; 
+	padding-top:5%;
+	flex-flow: column-wrap; 
+	justify-content: center; 
+	align-content: space-evenly; 
+	gap: 5%;
+}
+.empty-space{
+	height:10px;
+}
+.progress-bar{
+	/* border:3px solid black; */ 
+	/* border-radius:10px; */
+}
+.my-skill-level{
+	border-radius:10px;
+	height:5px;
+}
+.li-without-style{
+	list-style:none;
+}
+li{
+	list-style: square;
+}
+em{
+	font-weight: bold; font-style: normal;
+}
+.center{
+	text-align:center;
+}
+.italic{
+	font-style:italic;
+}
+.red{
+	background-color:crimson;
+}
+.green{
+	background-color:DarkCyan;
+}
+.blue{
+	/* background-color:darkcyan; */
+	/* background-color:lightsteelblue; */
+	background-color:darkslateblue;
+}
+
+/* Adapt to smaller devices */
 @media only screen and (max-width: 200px) {
 	.profile-img{
 		width:50px;
