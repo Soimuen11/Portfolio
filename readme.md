@@ -6,8 +6,5 @@ and flexbox. There is some JavaScript as well.
 
 ## Todos
 
-+ Better responsivity for projects page
-+ Add possibility to send me emails from contact page
-	- find icon envelope
-	- add my encrypted mail to contact me
-+ Add link/button to github for project 6 && mystery number
++ Create a Skills page
++ Add a page with all my professional experience (A CV but without any choices to make)
