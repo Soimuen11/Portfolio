@@ -29,24 +29,24 @@
 				<main>
 					<p class="hello" id="portfolio-title">Portfolio</p>
 					<div class="flex-container">
-						<div class="project-box">
-							<a href="https://soimuen11.github.io/Mystery-Number-Quest/" target="_blank" rel="noopener noreferrer" class="project-title">
-								<img class="redhovering" src="../img/question-mark.png" style="width: 70px; height: 70px; border-radius: 50%;">
-								<p class="project-description" style="font-style:italic">Mystery Number</p>
-							</a>
-						</div>
+						<!-- <div class="project-box"> -->
+						<!-- 	<a href="https://soimuen11.github.io/Mystery-Number-Quest/" target="_blank" rel="noopener noreferrer" class="project-title"> -->
+						<!-- 		<img class="redhovering" src="../img/question-mark.png" style="width: 70px; height: 70px; border-radius: 50%;"> -->
+						<!-- 		<p class="project-description" style="font-style:italic">Mystery Number</p> -->
+						<!-- 	</a> -->
+						<!-- </div> -->
 						<div class="project-box">
 							<a href="https://soimuen11.github.io/Espace-Cheval/" target="_blank" rel="noopener noreferrer" class="project-title">
 								<img class="redhovering" src="../img/horse-icon1.jpg" style="width: 70px; height: 70px; border-radius: 50%;">
 								<p class="project-description" style="font-style:italic">Espace Cheval</p>
 							</a>
 						</div>
-						<div class="project-box">
-							<a href="https://soimuen11.github.io/OCSoftwareDev/OC_P6/index.html" target="_blank" rel="noopener noreferrer" class="project-title" id="dog_fight">
-								<img class="redhovering" src="../img/player1-dog-icon.jpg" style="width: 70px; height: 70px; border-radius: 50%;">
-								<p class="project-description" style="font-style:italic">Dog Fight</p>
-							</a>
-						</div>
+						<!-- <div class="project-box"> -->
+						<!-- 	<a href="https://soimuen11.github.io/OCSoftwareDev/OC_P6/index.html" target="_blank" rel="noopener noreferrer" class="project-title" id="dog_fight"> -->
+						<!-- 		<img class="redhovering" src="../img/player1-dog-icon.jpg" style="width: 70px; height: 70px; border-radius: 50%;"> -->
+						<!-- 		<p class="project-description" style="font-style:italic">Dog Fight</p> -->
+						<!-- 	</a> -->
+						<!-- </div> -->
 						<div class="project-box">
 							<a href="https://soimuen11.github.io/FreeWiki/" target="_blank" rel="noopener noreferrer" class="project-title" id="freewiki">
 								<img class="redhovering" src="../img/link-icon3.png" style="width: 70px; height: 70px; border-radius: 50%;">
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 	</body>
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 	<script>
 		//inform user that game_of_life project is not yet available
 		//let game_life = document.getElementById("game_life")
@@ -82,21 +82,22 @@
 		//	})
 		//})
 		//inform user that dog fight does not work mobile devices
-		let dog_fight = document.getElementById("dog_fight")
-		dog_fight.addEventListener("mouseover", function(){
-			let window_width = window.innerWidth;
-			if (window_width <= 950){
-				dog_fight.style['pointer-events'] = "none"
-				swal({
-					title:"Work In Progress",
-					text:"This project is not responsive yet. Come back to check it out soon!",
-					icon:"warning"
-				})
-			}
-		})
-		function reset_pointer(){
-			dog_fight.style['pointer-events'] = "initial"
-		}
-		window.setInterval(reset_pointer, 10)
+
+		//let dog_fight = document.getElementById("dog_fight")
+		//dog_fight.addEventListener("mouseover", function(){
+		//	let window_width = window.innerWidth;
+		//	if (window_width <= 950){
+		//		dog_fight.style['pointer-events'] = "none"
+		//		swal({
+		//			title:"Work In Progress",
+		//			text:"This project is not responsive yet. Come back to check it out soon!",
+		//			icon:"warning"
+		//		})
+		//	}
+		//})
+		//function reset_pointer(){
+		//	dog_fight.style['pointer-events'] = "initial"
+		//}
+		//window.setInterval(reset_pointer, 10)
 	</script>
 </html>

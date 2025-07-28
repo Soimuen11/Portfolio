@@ -41,9 +41,11 @@ footer{
 }
 
 .hello{
-	font-family: "Festive", Arial, Helvetica, sans-serif;
-	line-height: 50px;
-	font-size: 65px;
+	/* font-family: "Festive", Arial, Helvetica, sans-serif; */
+	font-family: Serif;
+	line-height: 40px;
+	font-size: 50px;
+	/* font-size: 65px; */
 	font-style: italic;
 	height: 20%;
 }
