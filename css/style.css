@@ -61,6 +61,8 @@ main{
 .topnav a:hover {
 	background-color: none;
 	color: black;
+	text-decoration:underline;
+	transition-delay:0.1s;
 }
 /* Right-aligned section inside the top navigation */
 .topnav-right {
@@ -99,6 +101,11 @@ main{
 	flex-grow:4;
 	height: 0;
 }
+.redhovering:hover{
+	border:5px solid crimson;
+	transition-duration:0.3s;
+}
+
 .contact-box{
 	flex-grow:4;
 }
