@@ -31,6 +31,15 @@ main{
 	right: 0;
 	margin: auto;
 }
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height:20% !important;
+	width: 100%;
+	text-align: center;
+}
+
 .hello{
 	font-family: "Festive", Arial, Helvetica, sans-serif;
 	line-height: 50px;
@@ -97,6 +106,13 @@ main{
 	align-content: center;
 	height:50%;
 }
+.contact-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;	
+	align-content: center;
+	height:50%;
+}
 .project-box{
 	flex-grow:4;
 	height: 0;
@@ -150,6 +166,10 @@ main{
 	}
 	.flex-container{
 		flex-direction: column;
+		align-content: center;
+	}
+	.contact-container{
+		flex-direction: row;
 		align-content: center;
 	}
 	.system-stockage-container{
@@ -255,6 +275,9 @@ em{
 		line-height:20px;
 	}
 	.flex-container{
+		padding-top:40%;
+	}
+	.contact-container{
 		padding-top:40%;
 	}
 }
