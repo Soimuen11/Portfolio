@@ -2,7 +2,7 @@
 
 # 🎨 Mon Portfolio
 
-### Le site vitrine d'un développeur web & sysadmin
+### Le site vitrine d'un développeur & sysadmin
 
 *Hello World ! Voici mon portfolio de développeur front-end, écrit à la main, sans framework.*
 
